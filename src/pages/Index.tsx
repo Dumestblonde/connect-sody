@@ -82,7 +82,7 @@ const Index = () => {
         title="Connect with the best entertainment professionals"
         subtitle="Join our creative network of DJs, photographers, videographers, producers, and script writers to collaborate and grow together."
         ctaText="Join Network"
-        ctaLink="/booking"
+        ctaLink="/signup"
       />
 
       {/* Professions Section */}
@@ -195,7 +195,7 @@ const Index = () => {
                 Hire Professionals
               </Link>
               <Link
-                to="/"
+                to="/signup"
                 className="inline-flex items-center justify-center h-12 px-8 font-medium tracking-wide text-white transition duration-200 border border-white rounded-full hover:bg-white/10 focus:shadow-outline focus:outline-none"
               >
                 Join Network

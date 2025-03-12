@@ -12,6 +12,7 @@ import Videography from "./pages/Videography";
 import Producing from "./pages/Producing";
 import ScriptWriting from "./pages/ScriptWriting";
 import Booking from "./pages/Booking";
+import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/producing" element={<Producing />} />
             <Route path="/script-writing" element={<ScriptWriting />} />
             <Route path="/booking" element={<Booking />} />
+            <Route path="/signup" element={<SignUp />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AnimatePresence>
